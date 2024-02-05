@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        display: 'Be Vietnam Pro, sans-serif', 
+      },
       screens: {
         sm: '480px',
         md: '768px',
@@ -22,7 +25,10 @@ export default {
         'orange97': '#fff9f0',
         'orange99': '#fffdfa',
         'white': '#fff',
+        'white95': '#f1f1f3',
+        'white99': '#fcfcfd',
         'black': '#000',
+        'grey15': '#262626',
         'green': '#13ce66',
         'yellow': '#ffc82c',
         'gray-dark': '#273444',

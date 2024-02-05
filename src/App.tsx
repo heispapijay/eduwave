@@ -7,10 +7,11 @@ import { Signup } from "./pages/Signup";
 
 function App() {
   return (
-    <div className="m-4">
+    <div className="m-3 app">
       <BrowserRouter>
         <Promotion />
         <Navbar />
+        <div className="lg:m-6">
         <Routes>
           <Route path="/" />
           <Route index element={<Home />} />
@@ -21,6 +22,7 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
         </Routes>
+        </div>
         <Footer />
       </BrowserRouter>
     </div>
