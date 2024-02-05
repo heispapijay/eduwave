@@ -7,7 +7,7 @@ import { Signup } from "./pages/Signup";
 
 function App() {
   return (
-    <>
+    <div className="m-4">
       <BrowserRouter>
         <Promotion />
         <Navbar />
@@ -23,7 +23,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
