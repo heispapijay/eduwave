@@ -1,5 +1,4 @@
 import Marquee from "react-fast-marquee";
-
 import zapier from "../assets/branding/Logo.png";
 import spotify from "../assets/branding/Logo-1.png";
 import zoom from "../assets/branding/Logo-2.png";
